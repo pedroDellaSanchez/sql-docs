@@ -44,7 +44,7 @@ To enable or disable package management on SQL Server, use the command-line util
 
 3. To add package management to a specific database, run the following command from an elevated command prompt:
 
-    `RegisterRExt.exe /installpkgmgmt /database:databasename [/instance:name] [/user:username] [/password:*|password]`
+    `RegisterRExt.exe /install pkgmgmt /database:databasename [/instance:name] [/user:username] [/password:*|password]`
    
     This command creates some database artifacts, including the following database roles that are used for controlling user permissions: `rpkgs-users`, `rpkgs-private`, and `rpkgs-shared`.
 
